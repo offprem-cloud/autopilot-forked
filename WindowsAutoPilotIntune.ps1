@@ -34,7 +34,7 @@ Specifies the Azure AD app ID (GUID) for the application that will be used to au
 Specifies the Azure AD app secret corresponding to the app ID that will be used to authenticate.
  
 .EXAMPLE
-Connect-MSGraphApp -TenantId $tenantID -AppId $app -AppSecret $secret
+Connect-MSGraphApp -TenantId $tenant -AppId $AppID -AppSecret $AppSecret
  
 -#>
 [cmdletbinding()]
